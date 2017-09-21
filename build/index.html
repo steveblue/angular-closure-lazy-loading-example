@@ -40,6 +40,7 @@
           // Calculate the source URL using the same algorithms as used
           // during bundle generation.
           s.src = (self.System.baseURL || ".") + "/" + (self._S._map[n] ? self._S._map[n] : n);
+          // s.src = "https://rawgit.com/steveblue/angular-closure-lazy-loading-example/master/build" + "/" + (self._S._map[n] ? self._S._map[n] : n);
           // Fail promise on any error.
           s.onerror = t;
           // On success the trailing module in every bundle will have created
